@@ -1,0 +1,596 @@
+:root {
+    --RedColor: #ef4444;
+    --ParaColor: #6b7280;
+    --DivBg: #f5faff;
+    --HeadingColor: #475467;
+    --RedHoverColor: #dc2626;
+}
+
+@font-face {
+    font-family: Poppins;
+    src: url(Fonts/Poppins.ttf);
+}
+
+* {
+    font-family: Poppins;
+    margin: 0;
+}
+
+nav {
+    width: 100%;
+    height: 7vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: solid 1px #e5e7eb;
+    padding-left: 50px;
+    padding-right: 50px;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    background-color: rgba(255, 255, 255, 0.90);
+}
+
+.LogoNav img {
+    width: 170px;
+    height: 50px;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--ParaColor);
+}
+
+.LogoNav img {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.ButtonsNav {
+    display: flex;
+    gap: 20px;
+}
+
+.RightNav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.RightNav i {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    box-sizing: border-box;
+    margin-right: 50px;
+}
+
+.RightNav button {
+    background-color: var(--RedColor);
+    color: white;
+    border-radius: 25px;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+    font-size: 17px;
+    padding-right: 10px;
+    padding-left: 10px;
+    width: 100%;
+    height: 3vh;
+}
+
+.maindev {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.FirstSection {
+    width: 90%;
+    height: 60vh;
+    display: flex;
+    margin: auto;
+    border-radius: 15px;
+    background-color: var(--DivBg);
+    margin-top: 100px;
+    margin-bottom: 50px;
+    box-sizing: border-box;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.LeftFirstSection {
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+    box-sizing: border-box;
+    gap: 15px;
+    justify-content: center;
+}
+
+.RightFirstSection {
+    width: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.RightFirstSection img:hover {
+    background-color: #ededed;
+    margin: -10px;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+.ThirdBarLeftFirstSection {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.inputboxes {
+    background-color: white;
+    border-radius: 10px;
+    border: solid 2px var(--RedColor);
+    box-sizing: border-box;
+    height: 5vh;
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.YourLocation {
+    height: 7vh;
+    width: 100%;
+}
+
+.inputboxes input {
+    outline: none;
+    border: none;
+    font-size: medium;
+}
+
+.inputboxes select {
+    outline: none;
+    border: none;
+    font-size: medium;
+    width: 95%;
+}
+
+.inputboxes i {
+    margin-left: 10px;
+}
+
+.ThirdBarInputBoxes {
+    background-color: white;
+    border-radius: 10px;
+    border: solid 2px var(--RedColor);
+    box-sizing: border-box;
+    height: 7vh;
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.ThirdBarInputBoxes input {
+    outline: none;
+    border: none;
+    font-size: medium;
+}
+
+.ThirdBarInputBoxes i {
+    margin-left: 10px;
+}
+
+.SearchParkingButton {
+    height: 7vh;
+    width: 35%;
+    background-color: var(--RedColor);
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    font-size: medium;
+    border-radius: 35px;
+    color: white;
+    font-weight: bold;
+    margin-top: 25px;
+}
+
+.LeftFirstSection h1 {
+    font-size: 45px;
+}
+
+.LeftFirstSection p {
+    font-size: larger;
+    color: var(--ParaColor);
+}
+
+.RedTextFirstSection {
+    color: var(--RedColor);
+}
+
+.ButtonsNav a:hover {
+    color: var(--RedColor);
+    font-weight: bold;
+}
+
+.login:hover {
+    color: var(--RedColor);
+    font-weight: bold;
+}
+
+.RightNav .fa-bag-shopping {
+    color: var(--RedColor);
+}
+
+.fa-bag-shopping:hover {
+    color: var(--RedHoverColor);
+}
+
+.SecondSection {
+    width: 90%;
+    height: 60vh;
+    display: flex;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    box-sizing: border-box;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.SecondSection h1 {
+    font-size: xxx-large;
+    margin-bottom: 15px;
+}
+
+.SecondSection p {
+    font-size: x-large;
+    margin-bottom: 25px;
+}
+
+.BoxesSecondSection {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.ImagesBoxes {
+    width: 30%;
+    height: 42vh;
+    border: 1px solid #e5e7eb;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.ImagesBoxes:hover {
+    box-shadow: 0px 0px 15px #e3e3e3;
+}
+
+.ImagesBoxes h1 {
+    margin-top: 20px;
+    font-size: x-large;
+}
+
+.ImagesBoxes img {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    height: 23vh;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.ImagesBoxes button {
+    height: 5vh;
+    width: 40%;
+    background-color: var(--RedColor);
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    font-size: small;
+    border-radius: 35px;
+    color: white;
+    font-weight: bold;
+    margin-top: 40px;
+    margin-bottom: 25px;
+}
+
+.ThirdSection {
+    width: 90%;
+    height: 60vh;
+    display: flex;
+    margin: auto;
+    border-radius: 15px;
+    background-color: var(--RedColor);
+    margin-top: 50px;
+    margin-bottom: 50px;
+    box-sizing: border-box;
+    padding-left: 50px;
+    padding-right: 50px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ThirdSection h1 {
+    font-size: xxx-large;
+    color: white;
+}
+
+.ThirdSection p {
+    font-size: x-large;
+    color: white;
+    padding-left: 300px;
+    padding-right: 300px;
+    text-align: center;
+}
+
+.ThirdSection button {
+    height: 6vh;
+    width: 20%;
+    background-color: white;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    font-size: large;
+    border-radius: 35px;
+    color: var(--RedColor);
+    font-weight: bold;
+    margin-top: 40px;
+    margin-bottom: 25px;
+}
+
+.ThirdSection button:hover {
+    background-color: rgb(234, 234, 234);
+}
+
+.FourSection {
+    width: 90%;
+    height: 60vh;
+    display: flex;
+    margin: auto;
+    border-radius: 15px;
+    background-color: black;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    box-sizing: border-box;
+    padding-left: 50px;
+    padding-right: 50px;
+    flex-direction: column;
+    background-image: url(https://spotfinder.app/static/media/partner.2428d0330248356fbeb7.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 0px 100vmax inset;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.FourSection h1 {
+    font-size: 60px;
+    color: white;
+    text-align: center;
+}
+
+.FourSection p {
+    font-size: x-large;
+    color: white;
+    text-align: center;
+}
+
+.FourSection button {
+    height: 7vh;
+    width: 25%;
+    background-color: var(--RedColor);
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    font-size: medium;
+    border-radius: 35px;
+    color: white;
+    font-weight: bold;
+    margin-top: 25px;
+}
+
+.FivthSection {
+    width: 90%;
+    height: 30vh;
+    display: flex;
+    margin: auto;
+    border-radius: 15px;
+    background-color: var(--DivBg);
+    margin-top: 100px;
+    margin-bottom: 50px;
+    box-sizing: border-box;
+    padding-left: 50px;
+    padding-right: 50px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.FivthSection h1 {
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+.emaildiv {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+}
+
+.FivthSection input {
+    height: 5vh;
+    width: 20%;
+    border-radius: 5px;
+    border: solid 2px #e5e7eb;
+    font-size: large;
+}
+
+.FivthSection button {
+    height: 6vh;
+    width: 10%;
+    background-color: var(--RedColor);
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    font-size: medium;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: var(--RedHoverColor);
+}
+
+footer {
+    border-top: #dc2626 2px solid;
+}
+
+@media only screen and (max-width: 1440px) {
+    .RightFirstSection {
+        display: none;
+    }
+
+    .FirstSection {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .SearchParkingButton {
+        width: 100%;
+    }
+
+    .ThirdSection p {
+        padding-left: 150px;
+        padding-right: 150px;
+    }
+}
+
+@media only screen and (max-width: 1070px) {
+
+    .ThirdBarLeftFirstSection {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .SearchParkingButton {
+        width: 100%;
+    }
+
+    .ThirdSection p {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+
+    .FirstSection {
+        width: 100%;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .SecondSection {
+        width: 100%;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .ThirdSection {
+        width: 100%;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .FourSection {
+        width: 100%;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .FivthSection {
+        width: 100%;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .ButtonsNav {
+        display: none;
+    }
+
+    .login {
+        display: none;
+    }
+
+    .Register {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+
+    .maindiv {
+        width: 100%;
+    }
+
+    .ThirdBarLeftFirstSection {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .SearchParkingButton {
+        width: 100%;
+    }
+
+    .ThirdSection p {
+        padding-left: 0px;
+        padding-right: 0px;
+        font-size: small;
+    }
+
+    .ImagesBoxes h1 {
+        font-size: small;
+    }
+
+    .ImagesBoxes button {
+        height: 3vh;
+        width: 70%;
+        font-size: x-small;
+    }
+
+    .SecondSection {
+        height: 150vh;
+    }
+
+    .BoxesSecondSection {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .ImagesBoxes {
+        width: 80%;
+        height: 42vh;
+    }
+}
